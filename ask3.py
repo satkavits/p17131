@@ -33,5 +33,5 @@ s=raw_input('grapse kati:')
 
 
 
-print "to kodikopoihmeno kimeno einai :",rot13(s) 
+print "to kodikopoihmeno keimeno einai :",rot13(s) 
 
