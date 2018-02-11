@@ -18,45 +18,45 @@ while (m < 1):
         while True:        
             b = input()
             if int(b) < 80 and int(b) > 0:
-                p=p+1
+                p+=1
                 pin[n][p] = b
                 break
         while True: 
 	    c = input()
             if int(c) < 80 and int(c) > 0:
-                p=p+1
+                p+=1
                 pin[n][p] = c
                 break    
         while True:
             d = input()
             if int(d) < 80 and int(d) > 0:
-                p=p+1
+                p+=1
                 pin[n][p] = d
                 break
         while True:    
             e = input()
             if int(e) < 80 and int(e) > 0:
-                p=p+1
+                p+=1
                 pin[n][p] = e
                 break  
-        n=n+1
+        n+=1
     while flag == False : 
         rand=random.randint(1,80)   
         for n in range (100):
             r[m]=0
             for j in range (5):
                 
-                r[m]=r[m]+1
+                r[m]+=1
                 if int(pin[n][j])==rand:
                     
-                    numb[n]=numb[n]+1
+                    numb[n]+=1
                     if int(numb[n])==5:
                         print 'BINGO!!!! gia ton paikth' ,n
                         flag = True 
     if flag == True:                    
         break
         break
-    m=m+1
+    m+=1
 
 s = 0
 for k in range (1000):
