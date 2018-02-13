@@ -5,10 +5,10 @@ numb=[0 for i in range(100)]
 pin=[[0 for i in range(5)] for j in range(100)]
 r=[0 for k in range(1000)]
 while (m < 1000):
-    n=1
-    while (n < 101): 
+    n=0
+    while (n < 100): 
         p=0
-        print"grapse 5 arithmous apo to 1 ws to 80 player" ,n
+        print"grapse 5 arithmous apo to 1 ws to 80 player" ,n+1
         while True:
             a = input()
             if int(a) < 80 and int(a) > 0:
@@ -51,7 +51,7 @@ while (m < 1000):
                     
                     numb[n]+=1
                     if int(numb[n])==5:
-                        print 'BINGO!!!! gia ton paikth' ,n
+                        print 'BINGO!!!! gia ton paikth' ,n+1
                         flag = True 
     if flag == True:                    
         break
@@ -63,4 +63,4 @@ for k in range (1000):
     s = s+r[k]
 
 mo=s/1000
-print "O mosos oros bingo an paixnidi einai" ,mo		
+print "O mesos oros  einai" ,mo		
