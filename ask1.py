@@ -4,7 +4,7 @@ m = 0
 numb=[0 for i in range(100)]
 pin=[[0 for i in range(5)] for j in range(100)]
 r=[0 for k in range(1000)]
-while (m < 1):
+while (m < 1000):
     n=1
     while (n < 101): 
         p=0
